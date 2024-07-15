@@ -1,0 +1,44 @@
+$color-primary:'#317CB8';
+$color-grey:'#8c8c8c';
+$background-grey: '#f0f2f5';
+$dark-blue: '#1A3F76';
+$background-pink: '#D3D3EA';
+$death-pink: '#FEEFE9';
+
+.primary_color {
+    color: $color-primary;
+}
+
+.grey_color {
+    color: $color-grey;
+}
+
+.background_grey {
+    background-color: $background-grey;
+}
+
+.background_pink {
+    background-color: $background-pink;
+}
+.dark_blue {
+    background-color: $dark-blue;
+}
+
+.error_background {
+    background-color: red;
+}
+
+.death_pink {
+    background-color: $death-pink;
+}
+
+.sm_container {
+    align-self: center;
+    width: 33vw;
+    max-width: 600;
+    margin: 'auto';
+    margin-top: 150;
+    box-shadow: '0px 4px 10px rgba(0, 0, 0, 0.4)';
+    background-color: $background-grey;
+    border-width: '4px' 
+}
